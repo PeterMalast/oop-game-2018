@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="45" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="80">
+ <tileset firstgid="1" name="tileset2" tilewidth="16" tileheight="16" tilecount="500" columns="20">
+  <image source="tilesets/tileset02.png" width="320" height="400"/>
+ </tileset>
+ <tileset firstgid="501" name="tileset" tilewidth="16" tileheight="16" tilecount="500" columns="20">
+  <image source="tilesets/tileset01.png" width="320" height="400"/>
+ </tileset>
+ <tileset firstgid="1001" source="tilesets/overworld_tileset_grass.tsx"/>
+ <tileset firstgid="1253" source="tilesets/bazmeg.tsx"/>
+ <layer id="2" name="background" width="45" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzVmMuvFEUUxvtRd2FwJCaiQRITFb0+EvHCDgEXGgOCESHqWhFIgB1vfK1868IX6kIg6N34D+gfoC79P2aGhYmZmSsu9KtMfelvzj3dt5vBBYtfuru6q/o7p845Vd3nQ5ZdAG+Ct8Db/yPvgHdr7v0Efga/JGLbp+AzeYbX74H3wQfgQzAss2wMBqA/B6M0zjidf4SxPwafgN2hGj8eh3Kubd/iue9EM68/B1+AL8FXRnM8z9FWGFSbtrGP7RfvfY3jRfBN0jwWuyaO3nj+I55bFs28/h5cApfBlTDtX6Rx5+VYGo9cxfUPNX4em3lS30/S9bWyGrtv+ufyXhsjAwPn37ZHzoTqfCLPeX6289c39yMronnk9Oc9a38bBkabjst2arTj83n67pKhjZ8LeW+TfntftRWhml+2ezk+lvzQ3Bg6fqYNfK/aMyz93LM5aJ8Zl1V/vtP6fyRjsN8dYYrOjxfP6kcPmxc8V2z+UJvmION/d1its24Or9X4mdqsz5r8y5ya1DCW8TWfaUs/xaCdrzz52b63TnNTXllfss9G9L+3Bfoe5j3fOUq+9uJ7Iu/3YsPWDo2PSemP+RCee7iBrQnr59zxZWR9zbz2O/jZttMW3nsZ16/U8KrEl9qv+rV+lGGqqxeqXLQ1VDUPRIeXf1p7tP019H+9hkOhykdF3zkoK59HzYy1TaYGDxzNjI3C+MarPWrPksx/ZFtYnXserMGMBY7JWFsMq/dP1LycZdkfhscTtp2sy/21b1hWNfkkjqfA6aRJ1y4+Qx/EWOiluFDNvD8qZ+vnsmhsS+zj7cMewHgPgs0NeUTNGgPX0fYP+FPyI+bCX+WUf0EWmjX/WmTZb+D3ol6zrSnRF09gvC3gyTW0x/eqP/cmog3Mj0OieR3Obw9VrWvr572Ih33ghXy1Zu5RtoOnwqx21elpbmJTipnbEisdNXt+tnt95he17zB552neCXbVaF40mrv62dNs10SuSdHnI+ea56p5D3h+Dc0bbqKfteZ7+po02xrpEevmsVRjovYTYT7Nup+xa2Tduqx71C0NPJeIz50JVS08N4fmSIaakoMClMXsGsnaZ9uGLTXTZmr9u5wyT32O3AWdG8Dd4J5ido28f6GZpYWptpinB8DBMLuuxONA1pqFxLyaH4HOR8FjsYYXlW/aau6F2X8gXMP12EvjUXNvztjYAZ07wS7wtImNNppZI+1+I16zzWruz+nn/dD5EjgADt5AbOheXeNC87WX9N8szW9A52FwBBztqDmi+0/VmaccHDuamb/35d32dKRpn7mUfNmkmev9SjrqHleJuu9M6DcmbYz1+3iy7YTU2hv9Zu0ZtCYwJjydjGnty9i3/5Fi/T6bnj+X5sjmd5dvVrs31ZqgvqizizHdFzuouam/5nfXb1bd33k1wat1dm56YdZWncO6Wqn7hK7frLq/43cffaO+0PnQmLD/x1RzU63UdTS2dflm9dYIu3+K+r39tsYQ/WXj2dZKtT0XW+piYzFUc09sPKhvtNbpfKhG+x/AxrOtlWq7+qdJs7X7GfCsjKm+aVPr+uWs3arZ66+26/6ySbO1+0Wc7xe/qW/a1DqvjZrb9KdddXv1bWFtv1nftF1XvNi41fgPknqh3w==
+  </data>
+ </layer>
+ <layer id="4" name="walls" width="45" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztmEEOAyEIRSfx/muv02s0cdmDNE1qaomiHxDHaV/CkuE5Upg0heNIG4YH9/AdSE7J2Z1zXgnnTGtIY8QDYcRZw68603vbwZnSmh+pOJMG796wYFfn2gxZ7SyZe5qa3julrCvF05nW1eTO7o1W3RYxfGKVM3IWxJmb0+i34MhMWNEb2t2Z87n3yeWucu71AJc7w7m3R1LhSp1j5zwezjV/7v16O1vkX8E5Vu5nlfOr9q0Rs5x7d4jkU+de7hmckfyVzlL+zj7s7Ix+0yHxeIe1M4JlfQlSZy5KRmfubGeEKzsjZ7PsZ81vzcq59RzOWcqOzgiznbX/Bdew7mcPrHZd3neWz+PiCT3WgJU=
+  </data>
+ </layer>
+ <objectgroup id="6" name="actors">
+  <object id="1" name="ellen" type="ripley" x="23.3333" y="62.3334" width="32" height="32"/>
+  <object id="2" name="alien" type="waiting1" x="257.167" y="16.0001" width="32" height="32"/>
+  <object id="3" name="front door" type="vertical" x="112" y="17.0001" width="16" height="32"/>
+  <object id="4" name="back door" type="horizontal" x="81.3333" y="241" width="32" height="16"/>
+  <object id="6" name="alien" type="waiting1" x="88" y="423" width="32" height="32"/>
+  <object id="7" name="alien" type="waiting1" x="162.667" y="302.334" width="32" height="32"/>
+  <object id="8" name="alien" type="waiting1" x="324" y="343" width="32" height="32"/>
+  <object id="9" name="alien" type="waiting1" x="402" y="97.6668" width="32" height="32"/>
+  <object id="11" name="ammo" x="203.333" y="239.667" width="16" height="16"/>
+  <object id="12" name="ammo" x="86" y="27.6668" width="16" height="16"/>
+  <object id="13" name="energy" x="438" y="58.3335" width="16" height="16"/>
+  <object id="14" name="exit door" type="vertical" x="641.333" y="47.6673" width="16" height="32"/>
+  <object id="17" name="alien" type="waiting2" x="297" y="413.667" width="32" height="32"/>
+  <object id="18" name="energy" x="345.333" y="445" width="16" height="16"/>
+  <object id="19" name="ammo" x="193.333" y="25.6668" width="16" height="16"/>
+  <object id="20" name="ammo" x="440" y="158.334" width="16" height="16"/>
+  <object id="21" name="energy" x="297.333" y="29.0001" width="16" height="16"/>
+  <object id="22" name="front door" type="vertical" x="416.667" y="193" width="16" height="32"/>
+  <object id="23" name="access card" x="152.667" y="26.3335" width="15.3333" height="14.6667"/>
+  <object id="24" name="access card" x="388.333" y="277.334" width="15.3333" height="14.6667"/>
+  <object id="25" name="alien" type="waiting2" x="216.667" y="97.6668" width="32" height="32"/>
+  <object id="27" name="ammo" x="284.667" y="250.334" width="16" height="16"/>
+  <object id="28" name="ammo" x="162.667" y="410.334" width="16" height="16"/>
+  <object id="30" name="superammo" x="166.666" y="145" width="16" height="16"/>
+  <object id="31" name="energy" x="306.667" y="73.0001" width="16" height="16"/>
+  <object id="32" name="energy" x="203.333" y="191" width="16" height="16"/>
+  <object id="33" name="MyLittleDino" x="435.666" y="104" width="16" height="16"/>
+  <object id="34" name="front door" x="413.667" y="256.334" width="16" height="30"/>
+  <object id="35" name="deadline" x="353.667" y="255" width="16" height="18"/>
+  <object id="37" name="back door" type="horizontal" x="63.3333" y="464" width="32" height="16"/>
+  <object id="40" name="ammo" x="36.6667" y="352.667" width="16" height="16"/>
+  <object id="41" name="ammo" x="103.333" y="349.333" width="16" height="16"/>
+  <object id="42" name="ammo" x="148.666" y="596" width="16" height="16"/>
+  <object id="43" name="ammo" x="542" y="306" width="16" height="16"/>
+  <object id="44" name="ammo" x="525.333" y="182.667" width="16" height="16"/>
+  <object id="45" name="superammo" x="650.666" y="204.666" width="16" height="16"/>
+  <object id="46" name="ammo" x="504" y="187.333" width="16" height="16"/>
+  <object id="47" name="ammo" x="655.333" y="387.333" width="16" height="16"/>
+  <object id="48" name="energy" x="47.3333" y="513.333" width="16" height="16"/>
+  <object id="49" name="energy" x="164.667" y="508.667" width="16" height="16"/>
+  <object id="53" name="alien" type="waiting2" x="595.333" y="410.667" width="32" height="32"/>
+  <object id="54" name="alien" type="waiting2" x="646" y="519.333" width="32" height="32"/>
+  <object id="57" name="access card" x="64.3333" y="374.667" width="15.3333" height="14.6667"/>
+  <object id="58" name="access card" x="110.333" y="488" width="15.3333" height="14.6667"/>
+  <object id="59" name="alien" type="waiting1" x="452.333" y="515" width="32" height="32"/>
+  <object id="60" name="back door" type="horizontal" x="47" y="112.5" width="32" height="16"/>
+  <object id="61" name="energy" x="370.5" y="26.5" width="16" height="16"/>
+  <object id="62" name="heli" type="waiting2" x="666.333" y="588.667" width="32" height="32"/>
+  <object id="63" name="heli" type="waiting2" x="496" y="57.9993" width="32" height="32"/>
+  <object id="65" name="alien" type="waiting2" x="584" y="477" width="32" height="32"/>
+  <object id="66" name="teleport" type="waiting1" x="656.667" y="16.6667" width="32" height="32"/>
+  <object id="67" name="alien" type="waiting1" x="67.333" y="169.333" width="32" height="32"/>
+  <object id="69" name="boss" type="waiting1" x="564.333" y="129" width="64" height="64"/>
+  <object id="71" name="alien" type="waiting2" x="276.333" y="108.667" width="32" height="32"/>
+  <object id="72" name="access card" x="611" y="79.3333" width="15.3333" height="14.6667"/>
+  <object id="75" name="santa" x="516" y="126" width="16" height="16"/>
+  <object id="76" name="santa" x="591.333" y="254.667" width="16" height="16"/>
+  <object id="77" name="santa" x="310" y="192" width="16" height="16"/>
+  <object id="78" name="santa" x="253.333" y="528.333" width="16" height="16"/>
+  <object id="79" name="witcher" x="380.333" y="386" width="80" height="80"/>
+ </objectgroup>
+</map>
