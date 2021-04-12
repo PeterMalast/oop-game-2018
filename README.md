@@ -1,1 +1,1 @@
-GROUP: 03
+The goal of this course is to learn principles of object-oriented programming. During the semester, students should master object-oriented design and implementation skills using object-oriented programming language and design patterns.
